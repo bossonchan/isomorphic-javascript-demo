@@ -13,15 +13,13 @@ var App = React.createClass({
   render: function() {
     return (
       <div>
-        <ul>
-          <li>
-            <Link to="home">Home Page</Link>
-          </li>
-          <li>
-            <Link to="about">About Page</Link>
-          </li>
-        </ul>
-        <RouteHandler />
+        <div id="nav" >
+          <Link to="home">Home</Link>
+          <Link to="about">About</Link>
+        </div>
+        <div id="content" >
+          <RouteHandler id="testing" />
+        </div>
       </div>
     );
   }

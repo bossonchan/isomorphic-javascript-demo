@@ -11,6 +11,7 @@ module.exports = React.createClass({
           <title>isomorphic javascript demo</title>
           <script src="./lib/react.js" ></script>
           <script src="./lib/ReactRouter.min.js" ></script>
+          <link href="/css/style.css" rel="stylesheet" />
         </head>
         <body>
           <div id="app" dangerouslySetInnerHTML={createHTML()}></div>
